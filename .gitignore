@@ -24,3 +24,4 @@ composer.lock
 division-bar
 vendor/composer/
 vendor/simplepie/simplepie/
+vendor/autoload.php
