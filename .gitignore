@@ -27,3 +27,5 @@ vendor/simplepie/simplepie/
 vendor/autoload.php
 node_modules/
 mathspamprotection/
+
+vendor/autoload.php
