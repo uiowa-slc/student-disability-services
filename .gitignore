@@ -20,7 +20,6 @@ framework/
 googlesitemaps/
 assets/
 division-project/
-composer.lock
 division-bar
 vendor/composer/
 vendor/simplepie/simplepie/
