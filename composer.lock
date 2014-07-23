@@ -53,12 +53,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "020fa1983597249bfcb947b485c5aac8e0e36652"
+                "reference": "41cf781ed1271e25bf31b715416a349996aa2527"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/020fa1983597249bfcb947b485c5aac8e0e36652",
-                "reference": "020fa1983597249bfcb947b485c5aac8e0e36652",
+                "url": "https://api.github.com/repos/composer/installers/zipball/41cf781ed1271e25bf31b715416a349996aa2527",
+                "reference": "41cf781ed1271e25bf31b715416a349996aa2527",
                 "shasum": ""
             },
             "replace": {
@@ -89,8 +89,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
@@ -106,6 +105,7 @@
                 "annotatecms",
                 "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
                 "concrete5",
                 "croogo",
@@ -125,6 +125,7 @@
                 "phpbb",
                 "piwik",
                 "ppi",
+                "puppet",
                 "roundcube",
                 "shopware",
                 "silverstripe",
@@ -134,7 +135,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-07-09 14:29:42"
+            "time": "2014-07-22 17:04:15"
         },
         {
             "name": "md/division-bar",
@@ -394,12 +395,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe-labs/silverstripe-googlesitemaps.git",
-                "reference": "3b3742a1bc2cc14a1950304bc7dd533f9c66edbf"
+                "reference": "198a850f8dfb65751d0ae20c6576bc4fa2fd0608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/3b3742a1bc2cc14a1950304bc7dd533f9c66edbf",
-                "reference": "3b3742a1bc2cc14a1950304bc7dd533f9c66edbf",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/198a850f8dfb65751d0ae20c6576bc4fa2fd0608",
+                "reference": "198a850f8dfb65751d0ae20c6576bc4fa2fd0608",
                 "shasum": ""
             },
             "require": {
@@ -424,7 +425,7 @@
                 "seo",
                 "silverstripe"
             ],
-            "time": "2014-01-28 04:41:57"
+            "time": "2014-07-17 22:16:18"
         },
         {
             "name": "silverstripe/installer",
@@ -568,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheadawson/silverstripe-timepickerfield.git",
-                "reference": "87c6c7438d26bf9bf757d94ab7028b90146eb5c6"
+                "reference": "b9a107d47a80df2f02bd9c4cf002c29bb71531d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheadawson/silverstripe-timepickerfield/zipball/87c6c7438d26bf9bf757d94ab7028b90146eb5c6",
-                "reference": "87c6c7438d26bf9bf757d94ab7028b90146eb5c6",
+                "url": "https://api.github.com/repos/sheadawson/silverstripe-timepickerfield/zipball/b9a107d47a80df2f02bd9c4cf002c29bb71531d0",
+                "reference": "b9a107d47a80df2f02bd9c4cf002c29bb71531d0",
                 "shasum": ""
             },
             "require": {
@@ -598,7 +599,7 @@
                 "silverstripe",
                 "time"
             ],
-            "time": "2013-08-26 04:17:26"
+            "time": "2014-07-21 08:06:02"
         },
         {
             "name": "silverstripe/userforms",
@@ -736,12 +737,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
-                "reference": "f17a1923aece8ff7512a185f8bf40029b6045a37"
+                "reference": "6206ecba9e9c606883e091bb366928c89bf8cb9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/f17a1923aece8ff7512a185f8bf40029b6045a37",
-                "reference": "f17a1923aece8ff7512a185f8bf40029b6045a37",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/6206ecba9e9c606883e091bb366928c89bf8cb9a",
+                "reference": "6206ecba9e9c606883e091bb366928c89bf8cb9a",
                 "shasum": ""
             },
             "require": {
@@ -765,7 +766,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2014-07-10 20:54:13"
+            "time": "2014-07-16 11:26:46"
         },
         {
             "name": "unclecheese/eventcalendar",
@@ -773,12 +774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-event-calendar.git",
-                "reference": "a140d2e642652f8cf7be2c78b1f82468a760b6b0"
+                "reference": "c5a68969297ddcbc97f83c229e561d5171e3cdbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-event-calendar/zipball/a140d2e642652f8cf7be2c78b1f82468a760b6b0",
-                "reference": "a140d2e642652f8cf7be2c78b1f82468a760b6b0",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-event-calendar/zipball/c5a68969297ddcbc97f83c229e561d5171e3cdbb",
+                "reference": "c5a68969297ddcbc97f83c229e561d5171e3cdbb",
                 "shasum": ""
             },
             "require": {
@@ -808,7 +809,7 @@
                 "events",
                 "silverstripe"
             ],
-            "time": "2014-07-02 09:37:44"
+            "time": "2014-07-22 03:27:16"
         },
         {
             "name": "undefinedoffset/sortablegridfield",
