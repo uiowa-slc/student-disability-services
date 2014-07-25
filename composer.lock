@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "c25dcbfdeabf83b3087d32b2341b06f9b02ff50e"
+                "reference": "7d749774914d8321aa7b568eee7329809c96d7a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/c25dcbfdeabf83b3087d32b2341b06f9b02ff50e",
-                "reference": "c25dcbfdeabf83b3087d32b2341b06f9b02ff50e",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/7d749774914d8321aa7b568eee7329809c96d7a7",
+                "reference": "7d749774914d8321aa7b568eee7329809c96d7a7",
                 "shasum": ""
             },
             "require": {
@@ -45,7 +45,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2014-07-09 12:46:08"
+            "time": "2014-07-24 11:29:03"
         },
         {
             "name": "composer/installers",
@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheadawson/silverstripe-timepickerfield.git",
-                "reference": "b9a107d47a80df2f02bd9c4cf002c29bb71531d0"
+                "reference": "3f889a2b0e81561f99c562f95a410207b6486086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheadawson/silverstripe-timepickerfield/zipball/b9a107d47a80df2f02bd9c4cf002c29bb71531d0",
-                "reference": "b9a107d47a80df2f02bd9c4cf002c29bb71531d0",
+                "url": "https://api.github.com/repos/sheadawson/silverstripe-timepickerfield/zipball/3f889a2b0e81561f99c562f95a410207b6486086",
+                "reference": "3f889a2b0e81561f99c562f95a410207b6486086",
                 "shasum": ""
             },
             "require": {
@@ -599,7 +599,7 @@
                 "silverstripe",
                 "time"
             ],
-            "time": "2014-07-21 08:06:02"
+            "time": "2014-07-24 12:10:22"
         },
         {
             "name": "silverstripe/userforms",
@@ -607,12 +607,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "32b9b42f3a2d993131d66e3a91705a96399187bd"
+                "reference": "5568ee78751a8a9e09ebd18b238452da62502d64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/32b9b42f3a2d993131d66e3a91705a96399187bd",
-                "reference": "32b9b42f3a2d993131d66e3a91705a96399187bd",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/5568ee78751a8a9e09ebd18b238452da62502d64",
+                "reference": "5568ee78751a8a9e09ebd18b238452da62502d64",
                 "shasum": ""
             },
             "require": {
@@ -630,8 +630,7 @@
             "authors": [
                 {
                     "name": "Will Rossiter",
-                    "email": "will@fullscreen.io",
-                    "homepage": "http://wilr.github.com"
+                    "email": "will@fullscreen.io"
                 }
             ],
             "description": "UserForms enables CMS users to create dynamic forms via a drag and drop interface and without getting involved in any PHP code",
@@ -639,7 +638,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2014-07-12 21:02:38"
+            "time": "2014-07-25 02:53:13"
         },
         {
             "name": "silverstripe/widgets",
