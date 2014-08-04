@@ -5,10 +5,12 @@
   						<h3 class="mod-title">FAQ Topics</h3>
   						<ul class="grid-justify">
 	                    	<% with Page("FAQ") %>	 
-	                        <% loop $Entries.limit(8) %>
-	                        	<li><a href="$Link">$MenuTitle.LimitCharacters(66)</a></li>
-	                        <% end_loop %>
+		                        <% loop $Entries.limit(8) %>
+		                        	<li><a href="$Link">$MenuTitle.LimitCharacters(66)</a></li>
+		                        <% end_loop %>
+		                        <li><a href="$Link">View all topics</a></li>
 	                        <% end_with %>
+
                     	</ul>
                		</div>
                 <div class="col-1-4 mod mod-news">
@@ -21,7 +23,7 @@
 						        		<% if $Date %><small>$Date.Format('M. j')</small><% end_if %>
 						        	</li>
 					        	<% end_loop %>
-					        	<li><a href="$Link">View all News</a></li>
+					        	<li><a href="$Link">View all news</a></li>
 					        </ul>
 						<% end_if %>
 					<% end_with %>
