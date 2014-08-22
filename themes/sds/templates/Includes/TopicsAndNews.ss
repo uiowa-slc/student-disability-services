@@ -1,19 +1,19 @@
 <section class="topics hide-print">
   			<div class="container">
   				<div class="colgroup">
-  					<div class="col-1-2 mod">
+  					<div class="col-2-3 mod">
   						<h3 class="mod-title">FAQ Topics</h3>
-  						<ul class="grid-justify">
+  						<ul class="grid-justify topics-list">
 	                    	<% with Page("FAQ") %>	 
-		                        <% loop $Entries.limit(8) %>
-		                        	<li><a href="$Link">$MenuTitle.LimitCharacters(66)</a></li>
+		                        <% loop $Entries.Limit(8).Sort("Sort") %>
+		                        	<li><a href="$Link" class="btn">$MenuTitle.LimitCharacters(80)</a></li>
 		                        <% end_loop %>
 		                        <li><a href="$Link">View all topics</a></li>
 	                        <% end_with %>
 
                     	</ul>
                		</div>
-                <div class="col-1-4 mod mod-news">
+                <div class="col-1-3 mod mod-news">
 	            	<% with Page("news-from-sds") %>
 						<% if $Entries %>
 					        <h3 class="mod-title">News</h3>
