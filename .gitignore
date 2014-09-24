@@ -26,5 +26,6 @@ vendor/simplepie/simplepie/
 vendor/autoload.php
 node_modules/
 mathspamprotection/
-
+ac-json-events/
+vendor/silverstripe
 vendor/autoload.php
