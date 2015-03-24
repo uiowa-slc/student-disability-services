@@ -6,7 +6,7 @@
   						<ul class="grid-justify topics-list">
 	                    	<% with Page("FAQ") %>	 
 		                        <% loop $Entries.Limit(8).Sort("Sort") %>
-		                        	<li><a href="$Link" class="btn">$MenuTitle.LimitCharacters(80)</a></li>
+		                        	<li><a href="$Link">$MenuTitle.LimitCharacters(80)</a></li>
 		                        <% end_loop %>
 		                        <li><a href="$Link">View all topics</a></li>
 	                        <% end_with %>
