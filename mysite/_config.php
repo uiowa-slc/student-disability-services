@@ -21,3 +21,8 @@ FulltextSearchable::enable();
 // Enable nested URLs for this site (e.g. page/sub-page/)
 if (class_exists('SiteTree')) SiteTree::enable_nested_urls();
 Director::set_environment_type("dev");
+
+
+if(Director::isLive()) {
+	Director::forceSSL(array('/^Security/','/^admin/'));
+}
