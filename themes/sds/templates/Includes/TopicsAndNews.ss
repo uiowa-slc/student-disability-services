@@ -8,7 +8,7 @@
 		                        <% loop $Entries.Limit(8).Sort("Sort") %>
 		                        	<li><a href="$Link">$MenuTitle.LimitCharacters(80)</a></li>
 		                        <% end_loop %>
-		                        <li><a href="$Link">View all topics</a></li>
+		                        <li><hr /><a href="$Link">View all topics &rarr;</a></li>
 	                        <% end_with %>
 
                     	</ul>
@@ -23,7 +23,7 @@
 						        		<% if $Date %><small>$Date.Format('M. j')</small><% end_if %>
 						        	</li>
 					        	<% end_loop %>
-					        	<li><a href="$Link">View all news</a></li>
+					        	<li><hr /><a href="$Link">View all news &rarr;</a></li>
 					        </ul>
 						<% end_if %>
 					<% end_with %>
