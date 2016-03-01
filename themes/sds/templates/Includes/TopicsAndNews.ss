@@ -1,7 +1,7 @@
 <section class="topics hide-print">
   			<div class="row">
   				
-  					<div class="large-4 large-offset-2 columns mod">
+  					<div class="large-4 large-offset-1 columns mod">
   						<h3 class="mod-title">FAQ Topics</h3>
   						<ul class="topics-list">
 	                    	<% with Page("FAQ") %>	 
@@ -13,7 +13,7 @@
 
                     	</ul>
      				</div>
-                <div class="large-4 large-offset-1 end columns mod mod-news">
+                <div class="large-4 large-offset-2 end columns mod mod-news">
 	            	<% with Page("news") %>
 						<% if $BlogPosts %>
 					        <h3 class="mod-title">News</h3>
