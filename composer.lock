@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6228d4ee0a3e9e28ccf7401fc029a650",
-    "content-hash": "2488883c7a647bf9d0c3fb2b44f0a9f0",
+    "hash": "34b5410c455090586eb5555959b99fe0",
+    "content-hash": "8da7efb02c82e95ecce29a9ee9a50988",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "9dea26e6c5770a09942605131529dff8f99a0248"
+                "reference": "b2905b2184c86b40fa87668b7e2e92501ffe9437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/9dea26e6c5770a09942605131529dff8f99a0248",
-                "reference": "9dea26e6c5770a09942605131529dff8f99a0248",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/b2905b2184c86b40fa87668b7e2e92501ffe9437",
+                "reference": "b2905b2184c86b40fa87668b7e2e92501ffe9437",
                 "shasum": ""
             },
             "require": {
@@ -384,7 +384,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3.3.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2016-05-17 21:01:24"
+            "time": "2016-05-17 21:47:35"
         },
         {
             "name": "md/rss-display",
@@ -1640,9 +1640,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "md/division-project": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
