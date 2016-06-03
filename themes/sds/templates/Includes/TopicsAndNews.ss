@@ -1,4 +1,4 @@
-<section class="topics hide-print">
+<%-- <section class="topics hide-print">
   			<div class="row">
   				
   					<div class="large-4 large-offset-1 columns mod">
@@ -29,4 +29,4 @@
 					<% end_with %>
 				</div>
 			</div>
-	</section>
+	</section> --%>

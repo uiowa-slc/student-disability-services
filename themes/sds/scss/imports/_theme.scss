@@ -1,3 +1,4 @@
+//nav spacing
 .nav-main a {
 	@media screen and (min-width: $break-medium) {
 		@include rem(14);
@@ -16,4 +17,41 @@
 
 		padding: .25em 1.3em .55em;
 	}
+}
+
+//homepage
+.hero-text {
+	background: rgba(255, 255, 255, 1);
+	padding: 15px;
+	border-top: gold 4px solid;
+	max-width: none;
+	width: 100%;
+
+	h2.blocktext {
+		color: #333;
+		background: none;
+	}
+
+	ul {
+		&:after {
+			clear: both;
+		}
+
+		li {
+			display: inline-block;
+			float: none;
+
+			a {
+				@extend .btn;
+
+				font-size: 18px;
+				text-transform: capitalize;
+			}
+		}
+	}
+}
+
+//general no caps headers:
+h1, .module h3 {
+	text-transform: none;
 }
