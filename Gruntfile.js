@@ -15,7 +15,8 @@ module.exports = function(grunt) {
     sass: {
       dist: { 
         files: {
-          '<%=globalConfig.themeDir %>/css/master.css' : '<%=globalConfig.themeDir %>/scss/master.scss'
+          '<%=globalConfig.themeDir %>/css/master.css' : '<%=globalConfig.themeDir %>/scss/master.scss',
+          '<%=globalConfig.themeDir %>/css/editor.css' : '<%=globalConfig.themeDir %>/scss/editor.scss'
         },                  // Target
         options: {              // Target options
           style: 'compressed',
@@ -65,17 +66,46 @@ module.exports = function(grunt) {
       }
     },
 
-  });
+    criticalcss: {
+          custom: {
+              options: {
+                  url: "http://localhost:8888/student-disability-services/",
+                  width: 1200,
+                  height: 900,
+                  outputfile: "<%=globalConfig.themeDir %>/templates/Includes/CriticalCss.ss",
+                  filename: "<%=globalConfig.themeDir %>/css/master.css", // Using path.resolve( path.join( ... ) ) is a good idea here
+                  buffer: 800*1024,
+                  ignoreConsole: false,
+                  forceInclude: ['.img-container', '.main-content', '.sec-content', '.sec-nav', '.sec-nav ul', '.sec-nav a', '.section-title', '.margin-top']
+              }
+          }
+      },
+      cssmin: {
+        options: {
+          shorthandCompacting: false,
+          roundingPrecision: -1
+        },
+        target: {
+          files: {
+            '<%=globalConfig.themeDir %>/templates/Includes/CriticalCss.ss': ['<%=globalConfig.themeDir %>/templates/Includes/CriticalCss.ss']
+          }
+        }
+      }
 
+  });
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-simple-watch');
+  grunt.loadNpmTasks('grunt-criticalcss');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Default task(s).
   // Note: order of tasks is very important
-  grunt.registerTask('default', ['sass', 'concat', 'uglify', 'watch']);
+  grunt.registerTask('default', ['sass', 'concat', 'uglify', 'criticalcss', 'cssmin','watch']);
 
 };
+
+
