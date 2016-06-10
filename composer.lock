@@ -339,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "f4d6daa8d453adfd526b685ea59a82fc0172d83b"
+                "reference": "6a5d9c56bb9c4b08100f9a5c17110a5aa85852bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/f4d6daa8d453adfd526b685ea59a82fc0172d83b",
-                "reference": "f4d6daa8d453adfd526b685ea59a82fc0172d83b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/6a5d9c56bb9c4b08100f9a5c17110a5aa85852bc",
+                "reference": "6a5d9c56bb9c4b08100f9a5c17110a5aa85852bc",
                 "shasum": ""
             },
             "require": {
@@ -384,7 +384,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3.3.x-accessibility",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2016-06-03 14:52:27"
+            "time": "2016-06-10 18:33:14"
         },
         {
             "name": "md/rss-display",
@@ -626,7 +626,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/c1ae82b74bb2490544f9e093e1405974a7a0aee2",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/09bdf60aa454c0ca6192aebf54dff22cfd39470f",
                 "reference": "c1ae82b74bb2490544f9e093e1405974a7a0aee2",
                 "shasum": ""
             },
@@ -787,7 +787,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/6fd2901aafc42645aa50e988a83d7aa8663c11b0",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-googlesitemaps/zipball/11a894a10e2186d39953c3677f309203c9f4c7bc",
                 "reference": "6fd2901aafc42645aa50e988a83d7aa8663c11b0",
                 "shasum": ""
             },
@@ -1607,7 +1607,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/92dfcd0447c7e679f77abdaf3befbe86ccd212a2",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/05637b821651716951c3747cf93d1bc1280c3e96",
                 "reference": "92dfcd0447c7e679f77abdaf3befbe86ccd212a2",
                 "shasum": ""
             },
