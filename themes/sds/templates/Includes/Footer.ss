@@ -8,13 +8,7 @@
 			<% else %>
 			<a href="http://sds.studentlife.uiowa.edu" class="hide-print footer-logo"><img src="{$ThemeDir}/images/sds-logo.png" alt="Student Disability Services"></a>
 			<% end_if %>
-			<% if $SiteConfig.GroupSummary %>
-				$SiteConfig.GroupSummary
-			<% else_if $SiteConfig.DisableDivisionBranding %>
-				<p>In pursuing its missions of teaching, research, and service, the University seeks to advance scholarly and creative endeavor through leading-edge research and artistic production; to use this research and creativity to enhance undergraduate, graduate, and professional education, health care, and other services provided to the people of Iowa, the nation, and the world; and to educate students for success and personal fulfillment in a diverse world.</p>
-			<% else %>
-				<p>The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.</p>
-			<% end_if %>
+
 			<p>$SiteConfig.Address
 				<% if $SiteConfig.PhoneNumber %>
 					<br />Phone: $SiteConfig.PhoneNumber
@@ -56,6 +50,13 @@
 		</div>
 		<div class="medium-12 large-3 columns">
 			<a href="http://studentlife.uiowa.edu" class="hide-print footer-logo"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life"></a>
+			<% if $SiteConfig.GroupSummary %>
+				$SiteConfig.GroupSummary
+			<% else_if $SiteConfig.DisableDivisionBranding %>
+				<p>In pursuing its missions of teaching, research, and service, the University seeks to advance scholarly and creative endeavor through leading-edge research and artistic production; to use this research and creativity to enhance undergraduate, graduate, and professional education, health care, and other services provided to the people of Iowa, the nation, and the world; and to educate students for success and personal fulfillment in a diverse world.</p>
+			<% else %>
+				<p>The Division of Student Life fosters student success by creating and promoting inclusive educationally purposeful services and activities within and beyond the classroom.</p>
+			<% end_if %>
 			<hr />
 			<% include FooterRightContent %>
 		</div>
