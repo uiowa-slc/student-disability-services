@@ -19,6 +19,10 @@
 	}
 }
 
+.hero-content {
+	@include rem(17);
+}
+
 //homepage
 .hero-text {
 	background: rgba(255, 255, 255, 1);
