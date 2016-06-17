@@ -23,9 +23,7 @@
 	@include rem(17);
 }
 
-.btn {
-	border-color: rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46);
-}
+.btn {}
 
 //homepage
 .hero-text {
@@ -64,6 +62,7 @@
 
 				font-size: 18px;
 				text-transform: capitalize;
+				border-color: rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46);
 
 				&:hover {
 					margin-top: 0;
