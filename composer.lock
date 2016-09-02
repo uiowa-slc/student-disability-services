@@ -51,7 +51,7 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
@@ -359,12 +359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "192fc307a55f797818f3dda0865caba4dfd777d0"
+                "reference": "dad82f468994d5b48e1326a005617796bea686db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/192fc307a55f797818f3dda0865caba4dfd777d0",
-                "reference": "192fc307a55f797818f3dda0865caba4dfd777d0",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/dad82f468994d5b48e1326a005617796bea686db",
+                "reference": "dad82f468994d5b48e1326a005617796bea686db",
                 "shasum": ""
             },
             "require": {
@@ -404,7 +404,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3.4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2016-09-01 14:20:40"
+            "time": "2016-09-02 15:53:32"
         },
         {
             "name": "md/rss-display",
