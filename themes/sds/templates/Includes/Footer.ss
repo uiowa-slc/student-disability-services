@@ -6,7 +6,7 @@
 			<% if $SiteConfig.DisableDivisionBranding %>
 				<a href="http://uiowa.edu" class="hide-print footer-logo"><img src="division-project/images/ui-logo-footer.png" alt="The University of Iowa"></a>
 			<% else %>
-			<a href="http://sds.studentlife.uiowa.edu" class="hide-print footer-logo"><img src="{$ThemeDir}/images/sds-logo.png" alt="Student Disability Services"></a>
+			<a href="http://sds.studentlife.uiowa.edu" class="hide-print footer-logo"><img src="{$ThemeDir}/images/sds-logo.png" alt="" role="presentation"></a>
 			<% end_if %>
 
 			<p>$SiteConfig.Address
@@ -49,7 +49,7 @@
 			</div>
 		</div>
 		<div class="medium-12 large-3 columns">
-			<a href="http://studentlife.uiowa.edu" class="hide-print footer-logo"><img src="division-project/images/dosl-uiowa.png" alt="Division Of Student Life"></a>
+			<a href="http://studentlife.uiowa.edu" class="hide-print footer-logo"><img src="division-project/images/dosl-uiowa.png" alt="" role="presentation"></a>
 			<% if $SiteConfig.GroupSummary %>
 				$SiteConfig.GroupSummary
 			<% else_if $SiteConfig.DisableDivisionBranding %>
