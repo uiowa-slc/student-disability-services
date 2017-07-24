@@ -50,3 +50,6 @@ siteconfig/
 secureassets/
 vendor
 blog-sortable-categories/
+activedirectory/
+multivaluefield/
+queuedjobs/
