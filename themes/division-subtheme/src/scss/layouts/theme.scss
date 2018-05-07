@@ -1,0 +1,62 @@
+
+
+.legacy-hp__hero-content {
+	font-size: rem-calc(17);
+}
+
+//homepage
+.legacy-hp__hero-text {
+	background: rgba(255, 255, 255, 1);
+	padding: 20px 15px;
+	border-top: $yellow 4px solid;
+	max-width: none;
+	margin: 0;
+	bottom: 10px;
+	left: auto;
+	width: 100%;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	-ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+
+	h2.legacy-hp__blocktext {
+		color: #333;
+		background: none;
+	}
+
+	ul {
+		padding-top: 10px;
+
+		&:after {
+			clear: both;
+		}
+
+		li {
+			display: inline-block;
+			float: none;
+
+			a {
+				@extend .button;
+				background: white;
+				color: black;
+				text-shadow: none;
+				font-size: 18px;
+				text-transform: capitalize;
+				border-color: rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46);
+
+				&:hover {
+					margin-top: 0;
+					color: black;
+					background: #eee;
+				}
+			}
+		}
+	}
+}
+
+//general no caps headers:
+h1, .legacy-hp-module h3 {
+	text-transform: none;
+}
