@@ -88,3 +88,35 @@
 h1, .legacy-hp-module h3 {
 	text-transform: none;
 }
+
+
+.quick-links{
+		ul {
+		padding-top: 10px;
+
+		&:after {
+			clear: both;
+		}
+
+		li {
+			display: inline-block;
+			float: none;
+
+			a {
+				@extend .button;
+				background: white;
+				color: black;
+				text-shadow: none;
+				font-size: 18px;
+				text-transform: capitalize;
+				border-color: rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46) rgba(0, 0, 0, 0.46);
+				margin-bottom: rem-calc(10);
+				&:hover {
+					margin-top: 0;
+					color: black;
+					background: #eee;
+				}
+			}
+		}
+	}
+}
