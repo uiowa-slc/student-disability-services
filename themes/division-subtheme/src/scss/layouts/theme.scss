@@ -113,7 +113,9 @@ h1, .legacy-hp-module h3 {
 			font-size: rem-calc(13);
 		}
 }
-
+.division-bar__link--dark-header, .division-bar__link--dark-header:focus, .division-bar__link--dark-header:hover{
+	color: #222;
+}
 .division-bar__link:focus:after, .division-bar__link:hover{
 	background: #eee;
 }
