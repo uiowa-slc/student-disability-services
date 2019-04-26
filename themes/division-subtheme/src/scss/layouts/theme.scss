@@ -89,7 +89,37 @@ h1, .legacy-hp-module h3 {
 	text-transform: none;
 }
 
+@media(max-width: 600px) {
+  #uiowa-bar #uiowa-search .links {
+	 display: block;
+	 padding-top: 5px;
+	 padding-bottom: 15px;
+  }
+}
 
+#uiowa-bar #uiowa-search .links a{
+
+	border: 1px solid #222;
+	padding: 2px;
+	display: inline-block;
+	font-size: rem-calc(11);
+	margin-bottom: 5px;
+	&:hover{
+
+	}
+		@include breakpoint(medium) {
+			padding: 5px;
+			font-size: rem-calc(13);
+		}
+}
+
+.division-bar__link:focus:after, .division-bar__link:hover{
+	background: #eee;
+}
+
+.division-bar__link:focus:after, .division-bar__link:hover:after{
+	opacity: 0;
+}
 .quick-links{
 		ul {
 		padding-top: 10px;
