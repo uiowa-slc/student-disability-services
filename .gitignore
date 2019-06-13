@@ -5,6 +5,8 @@
 /resources/
 /public/resources/
 /public/assets/
+/_resources/
+/public/_resources/
 .sass-cache/*
 *.scssc
 .DS_Store
@@ -15,4 +17,4 @@ smtp.yml
 /node_modules/
 /npm-debug.log
 /cache
-.phpintel/
+.phpintel
