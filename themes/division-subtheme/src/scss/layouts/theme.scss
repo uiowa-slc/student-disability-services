@@ -100,11 +100,15 @@ h1,
     }
 }
 
+#uiowa-bar #uiowa-search {
+    top: 0;
+}
+
 #uiowa-bar #uiowa-search .links a {
 
     // border: 1px solid #222;
 
-    padding: 2px;
+    padding: 3px;
     display: inline-block;
     font-size: rem-calc(11);
     margin-top: 5px;
@@ -121,7 +125,7 @@ h1,
 }
 
 .header {
-    margin-top: rem-calc(32);
+    margin-top: rem-calc(24);
 
     @media(max-width: 600px) {
 
