@@ -689,23 +689,23 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "v1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
-                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/60d379c243457e073cff02bc323a2a86cb355631",
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0"
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
             },
             "type": "library",
             "extra": {
@@ -736,20 +736,20 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20T10:07:11+00:00"
+            "time": "2020-09-30T07:37:28+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.6.1",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
+                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
                 "shasum": ""
             },
             "require": {
@@ -762,15 +762,15 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
             },
             "suggest": {
-                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -807,7 +807,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2019-07-01T23:21:34+00:00"
+            "time": "2020-09-30T07:37:11+00:00"
         },
         {
             "name": "intervention/image",
@@ -1314,12 +1314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "c75a943a5b8ff3e5c0e83f5f2abc0fbe5548b43f"
+                "reference": "0c32187687b5ce8fc3ecf9a5a7e2aab3729e4b99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/c75a943a5b8ff3e5c0e83f5f2abc0fbe5548b43f",
-                "reference": "c75a943a5b8ff3e5c0e83f5f2abc0fbe5548b43f",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/0c32187687b5ce8fc3ecf9a5a7e2aab3729e4b99",
+                "reference": "0c32187687b5ce8fc3ecf9a5a7e2aab3729e4b99",
                 "shasum": ""
             },
             "require": {
@@ -1348,6 +1348,7 @@
                 "silverstripe/tagfield": "*",
                 "silverstripe/userforms": "*",
                 "silverstripe/widgets": "*",
+                "tractorcow/silverstripe-robots": "^4",
                 "unclecheese/display-logic": "dev-master",
                 "undefinedoffset/silverstripe-nocaptcha": "*",
                 "undefinedoffset/sortablegridfield": "*"
@@ -1367,7 +1368,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2-branding",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-09-25T14:32:36+00:00"
+            "time": "2020-10-19T15:08:29+00:00"
         },
         {
             "name": "md/saml",
@@ -1819,20 +1820,20 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v9.99.99",
+            "version": "v9.99.100",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
                 "shasum": ""
             },
             "require": {
-                "php": "^7"
+                "php": ">= 7"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*|5.*",
@@ -1860,7 +1861,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-07-02T15:55:56+00:00"
+            "time": "2020-10-15T08:29:30+00:00"
         },
         {
             "name": "psr/cache",
@@ -4088,16 +4089,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.14",
+            "version": "v4.4.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "0d386979828c15d37ff936bf9bae2ecbfa36d7dc"
+                "reference": "ebc51494739d3b081ea543ed7c462fa73a4f74db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/0d386979828c15d37ff936bf9bae2ecbfa36d7dc",
-                "reference": "0d386979828c15d37ff936bf9bae2ecbfa36d7dc",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/ebc51494739d3b081ea543ed7c462fa73a4f74db",
+                "reference": "ebc51494739d3b081ea543ed7c462fa73a4f74db",
                 "shasum": ""
             },
             "require": {
@@ -4148,7 +4149,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-02T16:08:58+00:00"
+            "time": "2020-09-27T13:54:16+00:00"
         },
         {
             "name": "symfony/finder",
@@ -4892,6 +4893,54 @@
                 }
             ],
             "time": "2020-09-18T15:58:55+00:00"
+        },
+        {
+            "name": "tractorcow/silverstripe-robots",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tractorcow/silverstripe-robots.git",
+                "reference": "72a423e44c1b500a432c494af7e8424132701b14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tractorcow/silverstripe-robots/zipball/72a423e44c1b500a432c494af7e8424132701b14",
+                "reference": "72a423e44c1b500a432c494af7e8424132701b14",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4"
+            },
+            "suggest": {
+                "silverstripe/googlesitemaps": "Ensures that a valid sitemap.xml is generated and referenced within robots.txt"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "TractorCow\\Robots\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Damian Mooyman",
+                    "email": "damian.mooyman@gmail.com"
+                }
+            ],
+            "description": "Simple robots generation module for Silverstripe",
+            "keywords": [
+                "robots",
+                "silverstripe"
+            ],
+            "time": "2020-08-18T04:25:41+00:00"
         },
         {
             "name": "unclecheese/display-logic",
