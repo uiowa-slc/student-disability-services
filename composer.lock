@@ -1314,12 +1314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "76e4826eead92da2cbef873f018efcc8d1df7ce8"
+                "reference": "f67a116af35415ca029b44d095c0437ec8afbac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/76e4826eead92da2cbef873f018efcc8d1df7ce8",
-                "reference": "76e4826eead92da2cbef873f018efcc8d1df7ce8",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/f67a116af35415ca029b44d095c0437ec8afbac1",
+                "reference": "f67a116af35415ca029b44d095c0437ec8afbac1",
                 "shasum": ""
             },
             "require": {
@@ -1368,7 +1368,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2-branding",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-10-28T20:20:11+00:00"
+            "time": "2020-10-29T16:50:42+00:00"
         },
         {
             "name": "md/saml",
@@ -3536,16 +3536,16 @@
         },
         {
             "name": "silverstripe/vendor-plugin",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/vendor-plugin.git",
-                "reference": "913f2f657b63215417f737710d3d64a42779acb8"
+                "reference": "2d91abfbdff35443c0498684b917fbeeb166669b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/913f2f657b63215417f737710d3d64a42779acb8",
-                "reference": "913f2f657b63215417f737710d3d64a42779acb8",
+                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/2d91abfbdff35443c0498684b917fbeeb166669b",
+                "reference": "2d91abfbdff35443c0498684b917fbeeb166669b",
                 "shasum": ""
             },
             "require": {
@@ -3582,7 +3582,7 @@
                 }
             ],
             "description": "Allows vendor modules to expose directories to the webroot",
-            "time": "2020-10-26T01:15:43+00:00"
+            "time": "2020-10-29T02:40:05+00:00"
         },
         {
             "name": "silverstripe/versioned",
