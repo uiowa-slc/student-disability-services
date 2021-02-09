@@ -1,0 +1,147 @@
+.timeline-icon {
+    max-width: 80px;
+
+}
+
+
+.timeline-circle {
+    font-weight: bold;
+    font-size: rem-calc(36);
+    padding: 0 20px;
+    border-radius: 100%;
+    background-color: #000;
+    color: #fff;
+    max-height: 100px;
+    z-index: 2;
+
+
+
+    &--top {
+        position: absolute;
+        top: 0;
+    }
+
+    &--bottom {
+        position: absolute;
+        bottom: 0;
+    }
+
+    &--gold {
+        background: $yellow;
+        color: black;
+    }
+}
+
+.timeline-content {
+    font-size: rem-calc(32);
+
+    margin-bottom: 0;
+
+    @media (min-width: 992px) {
+        padding-top: rem-calc(120);
+    }
+
+    p {
+        line-height: 1.1;
+
+    }
+
+
+}
+
+.timeline-item.bs-row {
+    display: flex;
+}
+
+.timeline-item.bs-row .col-2 {
+    display: inline-flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline-item.bs-row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 5px solid #000;
+    z-index: 1;
+}
+
+.timeline-item.bs-row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+}
+
+.timeline-item.bs-row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 5px);
+}
+
+.timeline-item.bs-row .col-2.full-left::after {
+    height: 100%;
+    left: calc(50%);
+}
+
+.timeline-item.bs-row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+}
+
+.timeline div {
+    padding: 0;
+    height: 44px;
+}
+
+
+
+.timeline__hr {
+    border-bottom: none;
+    border-top: 5px solid #000;
+    margin: 0;
+    top: 17px;
+    position: relative;
+}
+
+
+
+.timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+}
+
+.timeline-corner {
+    border: 5px solid #000;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.timeline-border-gold {
+    border-color: $yellow;
+
+    &:after {
+        border-color: $yellow !important;
+    }
+}
+
+.timeline .top-right {
+    left: 50%;
+    top: -50%;
+}
+
+.timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 5px);
+}
+
+.timeline .top-left {
+    left: -50%;
+    top: -50%;
+}
+
+.timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 5px);
+}
