@@ -26,8 +26,8 @@ $BeforeContent
         <div class="container-fluid">
             <!--first section-->
             <div class="bs-row align-items-center timeline-item">
-              <div class="col-2 text-center bottom">
-                <div class="timeline-circle">1</div>
+              <div class="col-2 text-center">
+                <div class="timeline-circle timeline-circle--bottom">1</div>
               </div>
               <div class="col-8">
                     <div class="bs-row timeline-content">
