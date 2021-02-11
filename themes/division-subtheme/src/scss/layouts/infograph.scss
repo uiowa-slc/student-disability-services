@@ -1,3 +1,6 @@
+$timeline-border-width: 6px;
+
+
 .timeline-icon {
     max-width: 80px;
 
@@ -76,7 +79,7 @@
 .timeline-item.bs-row .col-2::after {
     content: "";
     position: absolute;
-    border-left: 5px solid #000;
+    border-left: $timeline-border-width solid #000;
     z-index: 1;
 }
 
@@ -88,7 +91,7 @@
 
 .timeline-item.bs-row .col-2.full::after {
     height: 100%;
-    left: calc(50% - 5px);
+    left: calc(50% - #{$timeline-border-width});
 }
 
 .timeline-item.bs-row .col-2.full-left::after {
@@ -104,14 +107,14 @@
 
 .timeline div {
     padding: 0;
-    height: 44px;
+    height: 45px;
 }
 
 
 
 .timeline__hr {
     border-bottom: none;
-    border-top: 5px solid #000;
+    border-top: $timeline-border-width solid #000;
     margin: 0;
     top: 17px;
     position: relative;
@@ -125,7 +128,7 @@
 }
 
 .timeline-corner {
-    border: 5px solid #000;
+    border: $timeline-border-width solid #000;
     width: 100%;
     position: relative;
     border-radius: 15px;
@@ -146,7 +149,7 @@
 
 .timeline .left-bottom {
     left: -50%;
-    top: calc(50% - 5px);
+    top: calc(50% - #{$timeline-border-width});
 }
 
 .timeline .top-left {
@@ -156,5 +159,5 @@
 
 .timeline .right-bottom {
     left: 50%;
-    top: calc(50% - 5px);
+    top: calc(50% - #{$timeline-border-width});
 }
