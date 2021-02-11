@@ -42,17 +42,21 @@
 
 
     margin-bottom: 0;
-    font-size: rem-calc(24);
+
     padding-top: rem-calc(50);
 
     @include breakpoint(medium) {
         padding-top: rem-calc(120);
-        font-size: rem-calc(32);
+
     }
 
     p {
         line-height: 1.1;
+        font-size: rem-calc(22);
 
+        @include breakpoint(medium) {
+            font-size: rem-calc(32);
+        }
     }
 
 
