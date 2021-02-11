@@ -1,6 +1,12 @@
 .timeline-icon {
     max-width: 80px;
 
+    padding: rem-calc(10) 0;
+
+    @include breakpoint(medium) {
+        padding: 0;
+    }
+
 }
 
 
@@ -33,12 +39,15 @@
 }
 
 .timeline-content {
-    font-size: rem-calc(32);
+
 
     margin-bottom: 0;
+    font-size: rem-calc(24);
+    padding-top: rem-calc(50);
 
-    @media (min-width: 992px) {
+    @include breakpoint(medium) {
         padding-top: rem-calc(120);
+        font-size: rem-calc(32);
     }
 
     p {

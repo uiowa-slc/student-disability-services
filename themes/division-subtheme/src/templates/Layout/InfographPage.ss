@@ -31,11 +31,11 @@ $BeforeContent
               </div>
               <div class="col-8">
                     <div class="bs-row timeline-content">
-                        <div class="col-lg-2">
+                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/paper.png" alt="" role="hidden">
                         </div>
 
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p>Apply for accomodations and submit documentation of disability</p>
 
                         </div>
@@ -62,11 +62,11 @@ $BeforeContent
               <div class="col-8 text-right">
                     <div class="bs-row timeline-content">
 
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p>Look out for an email from SDS about scheduling an appointment.</p>
 
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/email-opened.png" alt="" role="hidden">
                         </div>
 
@@ -97,11 +97,11 @@ $BeforeContent
               </div>
               <div class="col-8">
                     <div class="bs-row timeline-content">
-                        <div class="col-lg-2">
+                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/telephone.png" alt="" role="hidden">
                         </div>
 
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p>Call or email to schedule your intake appointment.</p>
 
                         </div>
@@ -129,11 +129,11 @@ $BeforeContent
               <div class="col-8 text-right">
                     <div class="bs-row timeline-content">
 
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p>Meet with a SDS Accommodations Coordinator.</p>
 
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/calendar.png" alt="" role="hidden">
                         </div>
 
@@ -165,10 +165,10 @@ $BeforeContent
               </div>
               <div class="col-8">
                     <div class="bs-row timeline-content">
-                        <div class="col-lg-2">
+                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/download.png" alt="" role="hidden">
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p><a href="#">Download Letter(s) of Accommodations from Student Portal on SDS Website.</a></p>
 
                         </div>
@@ -197,11 +197,11 @@ $BeforeContent
               <div class="col-8 text-right">
                     <div class="bs-row timeline-content">
 
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p>Share your Letter(s) of Accommodations with your instructors.</p>
 
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/group-of-2.png" alt="" role="hidden">
                         </div>
 
@@ -232,10 +232,10 @@ $BeforeContent
               </div>
               <div class="col-8">
                     <div class="bs-row timeline-content">
-                     <div class="col-lg-2">
+                     <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/checklist.png" alt="" role="hidden">
                         </div>
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p>Follow-up and create a plan with your instructors to finalize and put your accommodations in place.</p>
 
                         </div>
@@ -264,12 +264,12 @@ $BeforeContent
               <div class="col-8 text-right">
                     <div class="bs-row timeline-content">
 
-                        <div class="col-lg-10">
+                        <div class="col-md-10">
                             <p>Congratulations! Your accommodations are now set up, reach out to your Accommodations Coordinator if you have any questions or concerns throughout the semester!</p>
 
                         </div>
 
-                        <div class="col-lg-2">
+                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/party.png" alt="" role="hidden">
                         </div>
                     </div>
