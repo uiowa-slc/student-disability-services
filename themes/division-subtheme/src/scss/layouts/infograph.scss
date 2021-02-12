@@ -9,7 +9,7 @@ $timeline-border-width: 6px;
 
     padding: rem-calc(10) 0;
 
-    @include breakpoint(medium) {
+    @include breakpoint(large) {
         padding: 0;
         max-width: 100px;
     }
