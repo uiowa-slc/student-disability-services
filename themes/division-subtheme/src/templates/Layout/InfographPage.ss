@@ -234,10 +234,10 @@ $BeforeContent
                 </div>
             </div>
             <div class="bs-row timeline">
-                <div class="col-2"></div>
-                <div class="col-8">
+                <div class="col-1"></div>
+                <div class="col-9">
                     <hr class="timeline__hr timeline-border-gold" />
-                    <div class="timeline-circle timeline-circle--gold timeline-circle--bottom" style="width: 30px;height: 30px;text-align: center; top: 10%; left: -29px;"></div>
+                    <div class="timeline-circle timeline-circle--gold timeline-circle--bottom" style="width: 30px;height: 30px;text-align: center; top: 10%; left: -16px;"></div>
                 </div>
                 <div class="col-2">
                     <div class="timeline-corner top-left timeline-border-gold"></div>
