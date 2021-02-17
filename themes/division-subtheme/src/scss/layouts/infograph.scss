@@ -63,7 +63,7 @@ $timeline-border-width: 6px;
         margin-bottom: 0;
 
         @include breakpoint(medium) {
-            font-size: rem-calc(28);
+            font-size: rem-calc(30);
             margin-top: 10px;
         }
     }

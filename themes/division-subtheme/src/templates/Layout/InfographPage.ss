@@ -20,7 +20,7 @@ $BeforeContent
 <div class="row">
     <div class="main-content main-content--with-padding" style="width: 90%;">
         $BeforeContentConstrained
-        <div class="container-fluid">
+        <div class="container-fluid mb-3 timeline-container">
             <!--first section-->
             <div class="bs-row align-items-center timeline-item">
                 <div class="col-2 text-center">
@@ -29,10 +29,10 @@ $BeforeContent
                 <div class="col-8">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/paper.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/paper.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p>Apply for accomodations and submit documentation of disability</p>
+                            <p><a href="students/apply/" target="_blank" rel="noopener">Apply for accomodations and submit documentation of disability. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -54,10 +54,10 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10">
-                            <p>Look out for an email from SDS about scheduling an appointment.</p>
+                            <p>Look out for an email from SDS<br /> about scheduling an appointment.</p>
                         </div>
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/email-opened.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/email-opened.png" alt="" role="presentation">
                         </div>
                     </div>
                 </div>
@@ -85,10 +85,10 @@ $BeforeContent
                 <div class="col-8">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/telephone.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/telephone.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p>Call or email to schedule your intake appointment.</p>
+                            <p><a href="aboutus/contactandlocationinfo/" target="_blank">Call or email to schedule <br />your intake appointment. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -110,10 +110,10 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10 h-100">
-                            <p>Meet with an SDS Accommodations Coordinator.</p>
+                            <p>Meet with an SDS <br />Accommodations Coordinator.</p>
                         </div>
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/calendar.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/calendar.png" alt="" role="presentation">
                         </div>
                     </div>
                 </div>
@@ -141,10 +141,10 @@ $BeforeContent
                 <div class="col-8">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/download.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/download.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="#">Download Letter(s) of Accommodations from Student Portal on SDS Website.</a></p>
+                            <p><a href="https://sdsportal.studentlife.uiowa.edu/ClockWork/user/test/AccommodationsLetters.aspx" target="_blank" rel="noopener">Download Letter(s) of Accommodations from the Student Portal on the SDS website. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
                         </div>
                     </div>
                 </div>
@@ -166,10 +166,10 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10">
-                            <p>Share your Letter(s) of Accommodations with your instructors.</p>
+                            <p>Share your Letter(s) of <br />Accommodations with your instructors.</p>
                         </div>
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/group-of-2.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/group-of-2.png" alt="" role="presentation">
                         </div>
                     </div>
                 </div>
@@ -195,7 +195,7 @@ $BeforeContent
                 <div class="col-8">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/checklist.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/checklist.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
                             <p>Follow-up and create a plan with your instructors to finalize and put your accommodations in place.</p>
@@ -210,54 +210,22 @@ $BeforeContent
               </div>
               <div class="col-8">
                 <hr class="timeline__hr" />
+
               </div>
               <div class="col-2">
                 <div class="timeline-corner left-bottom"></div>
               </div>
             </div>
-            <%-- <div class="bs-row align-items-center justify-content-end timeline-item">
-                <div class="col-8 text-right">
-                    <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
-                        <div class="col-md-10">
-                            <p>Share your Letter(s) of Accommodations with your instructors.</p>
-                        </div>
-                        <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/group-of-2.png" alt="" role="hidden">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2 text-center full">
-                    <div class="timeline-circle timeline-circle--gold timeline-circle--bottom">6</div>
-                </div>
-            </div>
-            <div class="bs-row timeline">
-                <div class="col-2">
-                    <div class="timeline-corner right-bottom timeline-border-gold"></div>
-                </div>
-                <div class="col-8">
-                    <hr class="timeline__hr timeline-border-gold" />
-                </div>
-                <div class="col-2">
-                    <div class="timeline-corner top-left timeline-border-gold"></div>
-                </div>
-            </div>
-
-            <div class="bs-row align-items-center timeline-item">
-                <div class="col-2 text-center">
-                    <div class="timeline-circle timeline-circle--top" style="top: -60px;">-</div>
-                </div>
-
-            </div> --%>
 
 
              <div class="bs-row align-items-center justify-content-end timeline-item">
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10">
-                            <p>Congrats! Your Accommodations are now set up, reach out to your Accommodations Coordinator if you have questions throughout the semester!</p>
+                            <p>Congrats! Your accommodations are now set up, reach out to your Accommodations Coordinator if you have questions throughout the semester!</p>
                         </div>
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/party.png" alt="" role="hidden">
+                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/party.png" alt="" role="presentation">
                         </div>
                     </div>
                 </div>
@@ -269,6 +237,7 @@ $BeforeContent
                 <div class="col-2"></div>
                 <div class="col-8">
                     <hr class="timeline__hr timeline-border-gold" />
+                    <div class="timeline-circle timeline-circle--gold timeline-circle--bottom" style="width: 30px;height: 30px;text-align: center; top: 10%; left: -29px;"></div>
                 </div>
                 <div class="col-2">
                     <div class="timeline-corner top-left timeline-border-gold"></div>
