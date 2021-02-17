@@ -222,7 +222,7 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10">
-                            <p>Congrats! Your accommodations are now set up, reach out to your Accommodations Coordinator if you have questions throughout the semester!</p>
+                            <p>Congrats! Your accommodations <br /> are now set up, reach out to your Accommodations Coordinator if you have questions throughout the semester!</p>
                         </div>
                         <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/party.png" alt="" role="presentation">
