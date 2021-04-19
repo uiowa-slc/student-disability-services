@@ -18,7 +18,7 @@ $Header
 $BeforeContent
 
 <div class="row">
-    <div class="main-content main-content--with-padding" style="width: 90%;">
+    <div class="main-content main-content--with-padding">
         $BeforeContentConstrained
         <div class="container-fluid mb-3 timeline-container">
             <!--first section-->
@@ -260,6 +260,15 @@ $BeforeContent
         <% end_if %>
 
     </div>
+    <% if $Children || $Menu(2) || $SidebarArea.Elements ||  $SidebarView.Widgets %>
+        <aside class="sidebar dp-sticky">
+            <% include SideNav %>
+            <% if $SideBarView %>
+                $SideBarView
+            <% end_if %>
+            $SidebarArea
+        </aside>
+    <% end_if %>
 </div>
 $AfterContent
 
