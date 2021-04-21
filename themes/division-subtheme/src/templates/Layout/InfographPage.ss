@@ -32,7 +32,7 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/paper.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="students/apply/" target="_blank" rel="noopener">Apply for accomodations and submit documentation of disability. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
+                            <p><a href="https://sds.studentlife.uiowa.edu/assets/Uploads/SDSapplication.pdf" target="_blank" rel="noopener">Apply for accommodations and submit documentation of disability.<i aria-hidden="true" class="fas fa-external-link-alt"></i></p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10">
-                            <p>Look out for an email from SDS<br /> about scheduling an appointment.</p>
+                            <p>Look for an email from SDS<br /> about scheduling an appointment.</p>
                         </div>
                         <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/email-opened.png" alt="" role="presentation">
