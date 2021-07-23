@@ -1,2 +1,23 @@
 @import "division-editor";
-@import "components/voice";
+
+div.voice{
+   background-color: #fff;
+   border: 2px dashed #000;
+   font-family: 'Zilla Slab',serif;
+   padding: rem-calc(40);
+   display: block;
+   font-weight: bold;
+   position: relative;
+   &:before{
+    content: '';
+    background-image: url('../images/uids-icons/pen-and-paper.png');
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   }
+
+}
