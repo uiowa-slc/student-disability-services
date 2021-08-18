@@ -11,10 +11,26 @@ $timeline-border-width: 6px;
 
     @include breakpoint(large) {
         padding: 0;
-        max-width: 100px;
+        max-width: 90px;
     }
 
 }
+
+.infograph-subheading{
+    font-size: rem-calc(24);
+    a{
+        border-bottom: $yellow 4px solid;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+.infograph-step-list{
+    margin-left: 40px;
+}
+
+
+
 
 
 .timeline-circle {
@@ -65,6 +81,19 @@ $timeline-border-width: 6px;
         @include breakpoint(medium) {
             font-size: rem-calc(30);
             margin-top: 10px;
+        }
+
+
+    }
+
+    &--smaller-text{
+        p{
+            font-size: rem-calc(20);
+
+            @include breakpoint(medium) {
+                font-size: rem-calc(26);
+
+            }
         }
     }
 
