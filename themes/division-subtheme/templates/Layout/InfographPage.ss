@@ -20,6 +20,7 @@ $BeforeContent
 <div class="row">
     <div class="main-content main-content--with-padding">
         $BeforeContentConstrained
+        <p class="infograph-subheading"><i>Have you already been approved for accommodations? <a href="{$Link}#step5">Skip to step 5!</a></i></p>
         <div class="container-fluid mb-3 timeline-container">
             <!--first section-->
             <div class="bs-row align-items-center timeline-item">
@@ -32,7 +33,7 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/paper.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="https://sds.studentlife.uiowa.edu/assets/Uploads/SDSapplication.pdf" target="_blank" rel="noopener">Apply for accommodations and submit documentation of disability.<i aria-hidden="true" class="fas fa-external-link-alt"></i></p>
+                            <p><a href="https://sds.studentlife.uiowa.edu/assets/Uploads/SDSapplication.pdf" target="_blank" rel="noopener"><strong>Apply for accommodations</strong> <i aria-hidden="true" class="fas fa-external-link-alt"></i></a><ol class="infograph-step-list" type="a"><li>Submit SDS Application<br /></li><li> Submit Documentation of Disability to SDS</li></p>
                         </div>
                     </div>
                 </div>
@@ -54,7 +55,7 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10">
-                            <p>Look for an email from SDS<br /> about scheduling an appointment.</p>
+                            <p>Check your UI email account for SDS communications regarding your application status.</p>
                         </div>
                         <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/email-opened.png" alt="" role="presentation">
@@ -83,12 +84,12 @@ $BeforeContent
                     <div class="timeline-circle timeline-circle--bottom">3</div>
                 </div>
                 <div class="col-8">
-                    <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
+                    <div class="bs-row timeline-content timeline-content--smaller-text d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/telephone.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="aboutus/contactandlocationinfo/" target="_blank">Call or email to schedule <br />your intake appointment. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
+                            <p>Once approved, call <a href="tel:319-335-1462">319-335-1462</a> or email <a href="mailto:sds-info@uiowa.edu">sds-info@uiowa.edu</a> to schedule an Initial Meeting.</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +111,7 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10 h-100">
-                            <p>Meet with an SDS <br />Access Consultant.</p>
+                            <p>Attend an Initial Meeting with your SDS Access Consultant.</p>
                         </div>
                         <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/calendar.png" alt="" role="presentation">
@@ -134,7 +135,7 @@ $BeforeContent
                 </div>
             </div>
 
-            <div class="bs-row align-items-center timeline-item">
+            <div class="bs-row align-items-center timeline-item" id="step5">
                 <div class="col-2 text-center full-left timeline-border-gold">
                     <div class="timeline-circle timeline-circle--bottom">5</div>
                 </div>
@@ -144,7 +145,7 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/download.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="https://sdsportal.studentlife.uiowa.edu/ClockWork/user/test/AccommodationsLetters.aspx" target="_blank" rel="noopener">Download Letter(s) of Accommodations from the Student Portal on the SDS website. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
+                            <p><strong>Each semester</strong>, generate your Letter(s) of Accommodations (LOAs).</p>
                         </div>
                     </div>
                 </div>
@@ -188,61 +189,38 @@ $BeforeContent
                     <div class="timeline-corner top-left timeline-border-gold"></div>
                 </div>
             </div>
+
+
             <div class="bs-row align-items-center timeline-item">
                 <div class="col-2 text-center full-left timeline-border-gold">
-                    <div class="timeline-circle timeline-circle--bottom">7</div>
+                    <div class="timeline-circle timeline-circle--bottom"></div>
                 </div>
                 <div class="col-8">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-2">
-                            <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/checklist.png" alt="" role="presentation">
-                        </div>
-                        <div class="col-md-10">
-                            <p>Follow-up and create a plan with your instructors to finalize and put your accommodations in place.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bs-row timeline">
-              <div class="col-2">
-                <div class="timeline-corner top-right "></div>
-              </div>
-              <div class="col-8">
-                <hr class="timeline__hr" />
-
-              </div>
-              <div class="col-2">
-                <div class="timeline-corner left-bottom"></div>
-              </div>
-            </div>
-
-
-             <div class="bs-row align-items-center justify-content-end timeline-item">
-                <div class="col-8 text-right">
-                    <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
-                        <div class="col-md-10">
-                            <p>Congrats! Your accommodations <br /> are now set up, reach out to your Access Consultant if you have questions throughout the semester!</p>
-                        </div>
-                        <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/party.png" alt="" role="presentation">
                         </div>
+                        <div class="col-md-10">
+                            <p>Your accommodations are now set up. Reach out to your Access Consultant if you have questions throughout the semester!</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-2 text-center full">
-                    <div class="timeline-circle timeline-circle--gold timeline-circle--bottom">8</div>
-                </div>
             </div>
-            <div class="bs-row timeline">
-                <div class="col-1"></div>
-                <div class="col-9">
-                    <hr class="timeline__hr timeline-border-gold" />
-                    <div class="timeline-circle timeline-circle--gold timeline-circle--bottom" style="width: 30px;height: 30px;text-align: center; top: 10%; left: -16px;"></div>
-                </div>
-                <div class="col-2">
-                    <div class="timeline-corner top-left timeline-border-gold"></div>
-                </div>
-            </div>
+
+<div class="bs-row timeline">
+        <div class="col-2">
+            <div class="timeline-corner top-right timeline-border-gold"></div>
+        </div>
+
+        <div class="col-9">
+
+            <hr class="timeline__hr timeline-border-gold">
+            <div class="timeline-circle timeline-circle--gold timeline-circle--bottom" style="width: 30px;height: 30px;text-align: center; top: 10%; right: -16px;"></div>
+        </div>
+            <div class="col-1"></div>
+
+    </div>
+
 
         </div>
 
