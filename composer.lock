@@ -448,16 +448,16 @@
         },
         {
             "name": "dnadesign/silverstripe-elemental",
-            "version": "4.6.0",
+            "version": "4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-elemental.git",
-                "reference": "2678c33912c39fa62a58d7b4cea9122d2556fb94"
+                "reference": "f626840fd6d1d4267e49014eaa55ae94bc490b85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental/zipball/2678c33912c39fa62a58d7b4cea9122d2556fb94",
-                "reference": "2678c33912c39fa62a58d7b4cea9122d2556fb94",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental/zipball/f626840fd6d1d4267e49014eaa55ae94bc490b85",
+                "reference": "f626840fd6d1d4267e49014eaa55ae94bc490b85",
                 "shasum": ""
             },
             "require": {
@@ -515,9 +515,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-elemental/issues",
-                "source": "https://github.com/silverstripe/silverstripe-elemental/tree/4.6.0"
+                "source": "https://github.com/silverstripe/silverstripe-elemental/tree/4.7.0"
             },
-            "time": "2021-05-10T22:23:33+00:00"
+            "time": "2021-08-05T06:30:33+00:00"
         },
         {
             "name": "edgarindustries/youtubefield",
@@ -1504,12 +1504,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "d18726b5b376ff246b169c2f8af3a4b3c57a797b"
+                "reference": "412f4fede02f62ba08f0e9e51ffd5800d092214c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/d18726b5b376ff246b169c2f8af3a4b3c57a797b",
-                "reference": "d18726b5b376ff246b169c2f8af3a4b3c57a797b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/412f4fede02f62ba08f0e9e51ffd5800d092214c",
+                "reference": "412f4fede02f62ba08f0e9e51ffd5800d092214c",
                 "shasum": ""
             },
             "require": {
@@ -1559,7 +1559,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2021-08-24T14:39:18+00:00"
+            "time": "2021-08-25T20:33:34+00:00"
         },
         {
             "name": "md/saml",
