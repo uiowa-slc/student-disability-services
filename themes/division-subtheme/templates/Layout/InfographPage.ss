@@ -144,7 +144,7 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/download.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="https://sdsportal.studentlife.uiowa.edu/ClockWork/user/test/AccommodationsLetters.aspx" target="_blank" rel="noopener">Download Letter(s) of Accommodations from the Student Portal on the SDS website. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
+                            <p><a href="https://myui.uiowa.edu/my-ui/student/records/registrar/sds-course-accommodations.page" target="_blank" rel="noopener">Download Letter(s) of Accommodations from the Student Portal on the SDS website. <i aria-hidden="true" class="fas fa-external-link-alt"></i></a></p>
                         </div>
                     </div>
                 </div>
