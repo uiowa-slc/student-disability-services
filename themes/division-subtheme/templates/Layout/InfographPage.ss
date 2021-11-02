@@ -33,7 +33,7 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/paper.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="https://sds.studentlife.uiowa.edu/assets/Uploads/SDSapplication.pdf" target="_blank" rel="noopener"><strong>Apply for accommodations</strong> <i aria-hidden="true" class="fas fa-external-link-alt"></i></a><ol class="infograph-step-list" type="a"><li>Submit SDS Application<br /></li><li> Submit Documentation of Disability to SDS</li></p>
+                            <p><a href="https://sds.studentlife.uiowa.edu/assets/Uploads/SDSapplication.pdf" target="_blank" rel="noopener"><strong>Apply for accommodations</strong> <i aria-hidden="true" class="fas fa-external-link-alt"></i></a><ul class="infograph-step-list"><li>Submit SDS Application<br /></li><li> Submit Documentation of Disability to SDS</li></p>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,8 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/download.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><strong>Each semester</strong>, generate your Letter(s) of Accommodations (LOAs).</p>
+
+                            <p><strong>Each semester</strong>, generate your Letter(s) of Accommodations (LOAs) on <a href="https://myui.uiowa.edu/my-ui/student/records/registrar/sds-course-accommodations.page">MyUI</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -167,7 +168,7 @@ $BeforeContent
                 <div class="col-8 text-right">
                     <div class="bs-row timeline-content d-flex align-items-center justify-content-center h-100">
                         <div class="col-md-10">
-                            <p>Share your Letter(s) of <br />Accommodations with your instructors.</p>
+                            <p>Share your LOA(s) with your instructors and meet to discuss how the accommodations will be implemented in their course.</p>
                         </div>
                         <div class="col-md-2">
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/group-of-2.png" alt="" role="presentation">
@@ -201,7 +202,7 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/party.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p>Your accommodations are now set up. Reach out to your Access Consultant if you have questions throughout the semester!</p>
+                            <p>Your accommodations are now set up! Reach out to your instructor and Access Consultant if you have questions throughout the semester.</p>
                         </div>
                     </div>
                 </div>
