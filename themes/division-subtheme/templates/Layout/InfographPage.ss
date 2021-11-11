@@ -33,7 +33,7 @@ $BeforeContent
                             <img class="timeline-icon" src="{$ThemeDir}/dist/images/uids-icons/paper.png" alt="" role="presentation">
                         </div>
                         <div class="col-md-10">
-                            <p><a href="https://sds.studentlife.uiowa.edu/assets/Uploads/SDSapplication.pdf" target="_blank" rel="noopener"><strong>Apply for accommodations</strong> <i aria-hidden="true" class="fas fa-external-link-alt"></i></a><ul class="infograph-step-list"><li>Submit SDS Application<br /></li><li> Submit Documentation of Disability to SDS</li></p>
+                            <p><a href="https://sds.studentlife.uiowa.edu/assets/Uploads/SDSapplication.pdf" target="_blank" rel="noopener"><strong>Apply for accommodations</strong> <i aria-hidden="true" class="fas fa-external-link-alt"></i></a><ul class="infograph-step-list"><li><a href="https://sds.studentlife.uiowa.edu/assets/SDS-Application.pdf" target="_blank" rel="noopener">Submit SDS Application</a><br /></li><li> <a href="https://sds.studentlife.uiowa.edu/students/apply/documentationguidelines/" target="_blank" rel="noopener">Submit Documentation of Disability to SDS</a></li></p>
                         </div>
                     </div>
                 </div>
