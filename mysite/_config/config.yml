@@ -5,3 +5,6 @@ SilverStripe\Core\Manifest\ModuleManifest:
   project: mysite
 # SilverStripe\Blog\Model\Blog:
 #   show_in_sitetree: true
+SilverStripe\Blog\Model\BlogController:
+  extensions:
+    - BlogControllerExtension
